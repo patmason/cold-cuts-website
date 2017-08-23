@@ -144,6 +144,14 @@ nav
 /*Media Queries*/
 
 @media screen and (max-width: 800px) and (orientation: portrait)
+  html, body
+    height: 100%
+
+  #main-wrapper
+    height: 100%
+
+  #home-body
+    height: 100%
 
   body
     font-size: 4rem
@@ -165,11 +173,11 @@ nav
   nav
     z-index: 2
     position: fixed
-    top: calc(100vh - 44px - 7rem)
+    bottom: 0px
     width: 100vw
     transform: rotate(0deg)
     transform-origin: bottom right
-    height: calc(44px + 7rem)
+    height: 7rem
     padding-top: 2.5rem
     #nav-container
       span
