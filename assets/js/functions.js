@@ -52,4 +52,11 @@ $( document ).ready(function() {
 
   $('#garage').on('click',mapClickCount);
 
+//   //Flickity
+//   $('.main-carousel').flickity({
+//   // options
+//   cellAlign: 'left',
+//   contain: true
+// });
+
 });

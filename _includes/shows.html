@@ -1,0 +1,17 @@
+{% for post in site.posts %}
+          <a href="#" class="exhibition-info fade-link">
+            <h2 class="dates">{{ post.dates }}</h2>
+            <h2 class="title">{{ post.title }}</h2>
+            <h2 class="artist">{{ post.artist }}</h2>
+          </a>
+          <article class="exhibition-documents">
+            {% for item in post.documents %}
+            <figure>
+              <img class="exhibition-image" src="{{ item.img }}" />
+              <figcaption class="caption">
+                {{ item.caption }}
+              </figcaption>
+            </figure>
+            {% endfor %}
+          </article>
+{% endfor %}

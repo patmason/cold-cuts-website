@@ -10,5 +10,5 @@ sass:
   style: :nested
 
 # Site settings
-baseurl: "/cold-cuts-website/"
+baseurl: 
 url: "http://patmason.github.io"
