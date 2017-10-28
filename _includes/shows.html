@@ -5,6 +5,9 @@
             <h2 class="artist">{{ post.artist }}</h2>
           </a>
           <article class="exhibition-documents">
+            <div class="content">
+              {{ post.content }}
+            </div>
             {% for item in post.documents %}
             <figure>
               <img class="exhibition-image" src="{{ item.img }}" />
